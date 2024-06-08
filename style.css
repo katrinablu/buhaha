@@ -6,6 +6,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -77,10 +79,16 @@ body {
     cursor: pointer;
 }
 
-.gif {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
+.poem-container {
+    text-align: center;
+    color: #7b1fa2;
 }
 
+.poem-container p {
+    margin: 0 0 1em 0;
+    line-height: 1.5;
+}
+
+.poem-container p:last-child {
+    margin: 0;
+}
